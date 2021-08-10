@@ -1,0 +1,132 @@
+body{
+    background-image: url("images/space-people.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+/* nav bar*/
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.left-side{
+    display: flex;
+
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding: 10px;
+
+}
+
+.nav-link-wrapper a {
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    transition: color 0.5s;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.nav-link-wrapper:hover{
+    border-bottom:1px solid white;
+
+}
+
+.nav-link-wrapper a:hover{
+    color: white;
+    
+}
+
+.active-nav-link{
+    border-bottom: 1px solid white;
+}
+.active-nav-link a{
+    color: white !important;
+    
+}
+
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+
+/*Title*/
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1440px;
+    height: 141px;
+    left: 0px;
+    top:273px;
+    font-size: 120px;
+    line-height:155px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    right:0px;
+
+
+}
+.sub-title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1440px;
+    height: 141px;
+    left: 0px;
+    top:400px;
+    font-size: 30px;
+    line-height:155px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    right: 0px;
+
+
+}
+
+/* buttons*/
+
+.main-buttons-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10em;
+    justify-items: center;
+    position: relative;
+    top: 500px;
+}
+.flights-wrapper a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding:2em;
+    border-radius: 1em;
+}
+.destinations-wrapper a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding:2em;
+    border-radius: 1em;
+}
+.events-wrapper a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding:2em;
+    border-radius: 1em;
+}
